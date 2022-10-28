@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		15476DC828FD5F7C0024A6C5 /* 문자열 거꾸로.c in Sources */ = {isa = PBXBuildFile; fileRef = 154FF71928FD55C700CE2090 /* 문자열 거꾸로.c */; };
+		15D9EAAE29051A0E007D952B /* 대문자만들기.c in Sources */ = {isa = PBXBuildFile; fileRef = 154FF71228FD4E5C00CE2090 /* 대문자만들기.c */; };
+		15DF48C229065F9E00430284 /* 한영사전.c in Sources */ = {isa = PBXBuildFile; fileRef = 15DF48C129065F9E00430284 /* 한영사전.c */; };
+		15DF48C429065FB100430284 /* fav_fruit.c in Sources */ = {isa = PBXBuildFile; fileRef = 15DF48C329065FB100430284 /* fav_fruit.c */; };
+		15DF48C629065FD000430284 /* array_of_string.c in Sources */ = {isa = PBXBuildFile; fileRef = 15DF48C529065FD000430284 /* array_of_string.c */; };
+		15DF48D029065FEC00430284 /* strcmp.c in Sources */ = {isa = PBXBuildFile; fileRef = 15DF48CF29065FEC00430284 /* strcmp.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +31,10 @@
 		154FF71228FD4E5C00CE2090 /* 대문자만들기.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "대문자만들기.c"; sourceTree = "<group>"; };
 		154FF71928FD55C700CE2090 /* 문자열 거꾸로.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "문자열 거꾸로.c"; sourceTree = "<group>"; };
 		154FF71B28FD58FE00CE2090 /* 암호확인.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "암호확인.c"; sourceTree = "<group>"; };
+		15DF48C129065F9E00430284 /* 한영사전.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "한영사전.c"; path = "../../포인터/포인터/한영사전.c"; sourceTree = "<group>"; };
+		15DF48C329065FB100430284 /* fav_fruit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fav_fruit.c; path = "../../../../../OneDrive - 단국대학교/22-2학기/융합코딩2/SWCC2-4/fav_fruit.c"; sourceTree = "<group>"; };
+		15DF48C529065FD000430284 /* array_of_string.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = array_of_string.c; path = "../../../../../OneDrive - 단국대학교/22-2학기/융합코딩2/SWCC2-4/array_of_string.c"; sourceTree = "<group>"; };
+		15DF48CF29065FEC00430284 /* strcmp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = strcmp.c; path = "../../../../../OneDrive - 단국대학교/22-2학기/융합코딩2/SWCC2-4/strcmp.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,10 @@
 				154FF71228FD4E5C00CE2090 /* 대문자만들기.c */,
 				154FF71928FD55C700CE2090 /* 문자열 거꾸로.c */,
 				154FF71B28FD58FE00CE2090 /* 암호확인.c */,
+				15DF48C129065F9E00430284 /* 한영사전.c */,
+				15DF48C329065FB100430284 /* fav_fruit.c */,
+				15DF48C529065FD000430284 /* array_of_string.c */,
+				15DF48CF29065FEC00430284 /* strcmp.c */,
 			);
 			path = C_4;
 			sourceTree = "<group>";
@@ -123,7 +135,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15476DC828FD5F7C0024A6C5 /* 문자열 거꾸로.c in Sources */,
+				15DF48D029065FEC00430284 /* strcmp.c in Sources */,
+				15DF48C229065F9E00430284 /* 한영사전.c in Sources */,
+				15DF48C429065FB100430284 /* fav_fruit.c in Sources */,
+				15D9EAAE29051A0E007D952B /* 대문자만들기.c in Sources */,
+				15DF48C629065FD000430284 /* array_of_string.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

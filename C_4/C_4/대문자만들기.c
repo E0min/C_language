@@ -7,16 +7,19 @@
 
 #include <stdio.h>
 #include <string.h>
-#include <
-#
+
 
 int main() {
-    char input[80];
+    char input[100];
+    printf("대문자로 출력: ");
+    fgets(input,100,stdin);
     
-    fgets(input,80,stdin);
-    
-    for(int i =0)
-    
+    for(int i = 0; i < strlen(input) ;i++){
+        if((input[i]>= 'a')&&(input[i])<= 'z'){
+            input[i] = input[i] - 32;
+        }
+    }
+    printf("%s",input);
     
 }
     
