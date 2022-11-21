@@ -31,7 +31,7 @@
 		150B769C2918FEF60069B79A /* typedef.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = typedef.c; sourceTree = "<group>"; };
 		150B769E2918FF380069B79A /* 2_7_P1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 2_7_P1.c; sourceTree = "<group>"; };
 		150B76A0291904A00069B79A /* 2_7_P2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 2_7_P2.c; sourceTree = "<group>"; };
-		152715AF290FB60A0033D065 /* C_구조체 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C_구조체"; sourceTree = BUILT_PRODUCTS_DIR; };
+		152715AF290FB60A0033D065 /* 구조체 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "구조체"; sourceTree = BUILT_PRODUCTS_DIR; };
 		152715B2290FB60A0033D065 /* Student.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Student.c; sourceTree = "<group>"; };
 		152715BA290FB90D0033D065 /* Struct_init.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Struct_init.c; sourceTree = "<group>"; };
 		153865632922143E00016754 /* swap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = swap.c; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		152715A6290FB60A0033D065 = {
 			isa = PBXGroup;
 			children = (
-				152715B1290FB60A0033D065 /* C_6 */,
+				152715B1290FB60A0033D065 /* 구조체 */,
 				152715B0290FB60A0033D065 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,12 +62,12 @@
 		152715B0290FB60A0033D065 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				152715AF290FB60A0033D065 /* C_구조체 */,
+				152715AF290FB60A0033D065 /* 구조체 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		152715B1290FB60A0033D065 /* C_6 */ = {
+		152715B1290FB60A0033D065 /* 구조체 */ = {
 			isa = PBXGroup;
 			children = (
 				152715B2290FB60A0033D065 /* Student.c */,
@@ -85,15 +85,16 @@
 				150B76A0291904A00069B79A /* 2_7_P2.c */,
 				153865632922143E00016754 /* swap.c */,
 			);
-			path = C_6;
+			name = "구조체";
+			path = "구조체";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		152715AE290FB60A0033D065 /* C_구조체 */ = {
+		152715AE290FB60A0033D065 /* 구조체 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 152715B6290FB60A0033D065 /* Build configuration list for PBXNativeTarget "C_구조체" */;
+			buildConfigurationList = 152715B6290FB60A0033D065 /* Build configuration list for PBXNativeTarget "구조체" */;
 			buildPhases = (
 				152715AB290FB60A0033D065 /* Sources */,
 				152715AC290FB60A0033D065 /* Frameworks */,
@@ -103,9 +104,9 @@
 			);
 			dependencies = (
 			);
-			name = "C_구조체";
+			name = "구조체";
 			productName = C_6;
-			productReference = 152715AF290FB60A0033D065 /* C_구조체 */;
+			productReference = 152715AF290FB60A0033D065 /* 구조체 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -122,7 +123,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 152715AA290FB60A0033D065 /* Build configuration list for PBXProject "C_구조체" */;
+			buildConfigurationList = 152715AA290FB60A0033D065 /* Build configuration list for PBXProject "구조체" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -135,7 +136,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				152715AE290FB60A0033D065 /* C_구조체 */,
+				152715AE290FB60A0033D065 /* 구조체 */,
 			);
 		};
 /* End PBXProject section */
@@ -280,7 +281,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		152715AA290FB60A0033D065 /* Build configuration list for PBXProject "C_구조체" */ = {
+		152715AA290FB60A0033D065 /* Build configuration list for PBXProject "구조체" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				152715B4290FB60A0033D065 /* Debug */,
@@ -289,7 +290,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		152715B6290FB60A0033D065 /* Build configuration list for PBXNativeTarget "C_구조체" */ = {
+		152715B6290FB60A0033D065 /* Build configuration list for PBXNativeTarget "구조체" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				152715B7290FB60A0033D065 /* Debug */,
