@@ -14,13 +14,9 @@ struct student{
 };
 
 int main(){
-    struct student s = {32193287, "이영민", 4.3};
-    struct student *p;
-    p = &s;
+    struct student a = {32193287, "이영민", 4.5};
+    struct student *p = &a;
     
-    printf(" %d %s %f\n",(*p).number,(*p).name,(*p).grade);
-    printf(" %d %s %f\n",s.number,s.name,s.grade);
-    printf(" %d %s %f",p->number,p->name,p->grade);
-
+    printf("학번 =%d , 이름 = %s , 학점 = %lf",(*p).number,(*p).name, (*p).grade);
 
 }

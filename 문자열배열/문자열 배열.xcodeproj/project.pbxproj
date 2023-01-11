@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1547EFF9292B66120032AD6D /* 암호확인.c in Sources */ = {isa = PBXBuildFile; fileRef = 1547EFF2292B66120032AD6D /* 암호확인.c */; };
-		1547EFFA292B66120032AD6D /* 대문자만들기.c in Sources */ = {isa = PBXBuildFile; fileRef = 1547EFF3292B66120032AD6D /* 대문자만들기.c */; };
 		1547EFFB292B66120032AD6D /* array_of_string.c in Sources */ = {isa = PBXBuildFile; fileRef = 1547EFF4292B66120032AD6D /* array_of_string.c */; };
 		1547EFFC292B66120032AD6D /* 한영사전.c in Sources */ = {isa = PBXBuildFile; fileRef = 1547EFF5292B66120032AD6D /* 한영사전.c */; };
-		1547EFFD292B66120032AD6D /* 문자열 거꾸로.c in Sources */ = {isa = PBXBuildFile; fileRef = 1547EFF6292B66120032AD6D /* 문자열 거꾸로.c */; };
 		1547EFFE292B66120032AD6D /* strcmp.c in Sources */ = {isa = PBXBuildFile; fileRef = 1547EFF7292B66120032AD6D /* strcmp.c */; };
 		1547EFFF292B66120032AD6D /* fav_fruit.c in Sources */ = {isa = PBXBuildFile; fileRef = 1547EFF8292B66120032AD6D /* fav_fruit.c */; };
+		1555339A2950B08F008EB989 /* upperlower.c in Sources */ = {isa = PBXBuildFile; fileRef = 155533992950B08F008EB989 /* upperlower.c */; };
 		15FB02C128FFF39B00F89320 /* 모음 삭제.c in Sources */ = {isa = PBXBuildFile; fileRef = 15FB02BE28FFD81800F89320 /* 모음 삭제.c */; };
 /* End PBXBuildFile section */
 
@@ -40,13 +38,11 @@
 		15476DEB28FDA3D50024A6C5 /* strcpy.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = strcpy.c; sourceTree = "<group>"; };
 		15476DED28FDA4110024A6C5 /* 문자등장횟수.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "문자등장횟수.c"; sourceTree = "<group>"; };
 		15476DEF28FE464C0024A6C5 /* 두개이상의 공백 삭제.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "두개이상의 공백 삭제.c"; sourceTree = "<group>"; };
-		1547EFF2292B66120032AD6D /* 암호확인.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "암호확인.c"; path = "../../C_4/C_4/암호확인.c"; sourceTree = "<group>"; };
-		1547EFF3292B66120032AD6D /* 대문자만들기.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "대문자만들기.c"; path = "../../C_4/C_4/대문자만들기.c"; sourceTree = "<group>"; };
 		1547EFF4292B66120032AD6D /* array_of_string.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = array_of_string.c; path = "../../../../../OneDrive - 단국대학교/22-2학기/융합코딩2/SWCC2-4/array_of_string.c"; sourceTree = "<group>"; };
 		1547EFF5292B66120032AD6D /* 한영사전.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "한영사전.c"; path = "../../포인터/포인터/한영사전.c"; sourceTree = "<group>"; };
-		1547EFF6292B66120032AD6D /* 문자열 거꾸로.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "문자열 거꾸로.c"; path = "../../C_4/C_4/문자열 거꾸로.c"; sourceTree = "<group>"; };
 		1547EFF7292B66120032AD6D /* strcmp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = strcmp.c; path = "../../../../../OneDrive - 단국대학교/22-2학기/융합코딩2/SWCC2-4/strcmp.c"; sourceTree = "<group>"; };
 		1547EFF8292B66120032AD6D /* fav_fruit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fav_fruit.c; path = "../../../../../OneDrive - 단국대학교/22-2학기/융합코딩2/SWCC2-4/fav_fruit.c"; sourceTree = "<group>"; };
+		155533992950B08F008EB989 /* upperlower.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = upperlower.c; sourceTree = "<group>"; };
 		15FB02BE28FFD81800F89320 /* 모음 삭제.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "모음 삭제.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,6 +60,7 @@
 		15476DC928FD9CF70024A6C5 = {
 			isa = PBXGroup;
 			children = (
+				155533992950B08F008EB989 /* upperlower.c */,
 				15476DD428FD9CF70024A6C5 /* 문자열 배열 */,
 				15476DD328FD9CF70024A6C5 /* Products */,
 			);
@@ -90,9 +87,6 @@
 				15476DED28FDA4110024A6C5 /* 문자등장횟수.c */,
 				15476DEF28FE464C0024A6C5 /* 두개이상의 공백 삭제.c */,
 				15FB02BE28FFD81800F89320 /* 모음 삭제.c */,
-				1547EFF3292B66120032AD6D /* 대문자만들기.c */,
-				1547EFF6292B66120032AD6D /* 문자열 거꾸로.c */,
-				1547EFF2292B66120032AD6D /* 암호확인.c */,
 				1547EFF5292B66120032AD6D /* 한영사전.c */,
 				1547EFF4292B66120032AD6D /* array_of_string.c */,
 				1547EFF8292B66120032AD6D /* fav_fruit.c */,
@@ -161,10 +155,8 @@
 			files = (
 				15FB02C128FFF39B00F89320 /* 모음 삭제.c in Sources */,
 				1547EFFE292B66120032AD6D /* strcmp.c in Sources */,
+				1555339A2950B08F008EB989 /* upperlower.c in Sources */,
 				1547EFFF292B66120032AD6D /* fav_fruit.c in Sources */,
-				1547EFF9292B66120032AD6D /* 암호확인.c in Sources */,
-				1547EFFA292B66120032AD6D /* 대문자만들기.c in Sources */,
-				1547EFFD292B66120032AD6D /* 문자열 거꾸로.c in Sources */,
 				1547EFFB292B66120032AD6D /* array_of_string.c in Sources */,
 				1547EFFC292B66120032AD6D /* 한영사전.c in Sources */,
 			);

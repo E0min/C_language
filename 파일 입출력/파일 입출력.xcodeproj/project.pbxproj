@@ -7,11 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1547EFEC292B652D0032AD6D /* file_open.c in Sources */ = {isa = PBXBuildFile; fileRef = 1547EFEB292B652D0032AD6D /* file_open.c */; };
-		1547F001292B67040032AD6D /* f_puts.c in Sources */ = {isa = PBXBuildFile; fileRef = 1547F000292B67040032AD6D /* f_puts.c */; };
-		1547F003292B6FC60032AD6D /* fcopy1.c in Sources */ = {isa = PBXBuildFile; fileRef = 1547F002292B6FC60032AD6D /* fcopy1.c */; };
-		1547F005292B6FCF0032AD6D /* fgetc.c in Sources */ = {isa = PBXBuildFile; fileRef = 1547F004292B6FCF0032AD6D /* fgetc.c */; };
-		1547F007292B6FD80032AD6D /* fgets.c in Sources */ = {isa = PBXBuildFile; fileRef = 1547F006292B6FD80032AD6D /* fgets.c */; };
+		15F638A12946FAC4006AB848 /* fgets_fputs.c in Sources */ = {isa = PBXBuildFile; fileRef = 15BDBE1429361AE90052DCE7 /* fgets_fputs.c */; };
+		15F638A4294701F3006AB848 /* fprintf.c in Sources */ = {isa = PBXBuildFile; fileRef = 15F638A3294701F3006AB848 /* fprintf.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,10 +26,12 @@
 /* Begin PBXFileReference section */
 		1547EFE8292B652D0032AD6D /* 파일 입출력 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "파일 입출력"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1547EFEB292B652D0032AD6D /* file_open.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = file_open.c; sourceTree = "<group>"; };
-		1547F000292B67040032AD6D /* f_puts.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = f_puts.c; sourceTree = "<group>"; };
-		1547F002292B6FC60032AD6D /* fcopy1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fcopy1.c; path = "../../../../../OneDrive - 단국대학교/22-2학기/융합코딩2/SWCC2-9/fcopy1.c"; sourceTree = "<group>"; };
-		1547F004292B6FCF0032AD6D /* fgetc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fgetc.c; path = "../../../../../OneDrive - 단국대학교/22-2학기/융합코딩2/SWCC2-9/fgetc.c"; sourceTree = "<group>"; };
-		1547F006292B6FD80032AD6D /* fgets.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fgets.c; path = "../../../../../OneDrive - 단국대학교/22-2학기/융합코딩2/SWCC2-9/fgets.c"; sourceTree = "<group>"; };
+		1547F000292B67040032AD6D /* fputc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fputc.c; sourceTree = "<group>"; };
+		1555339C29518830008EB989 /* File */ = {isa = PBXFileReference; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		15BDBE12293619700052DCE7 /* fgetc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fgetc.c; sourceTree = "<group>"; };
+		15BDBE1429361AE90052DCE7 /* fgets_fputs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fgets_fputs.c; sourceTree = "<group>"; };
+		15BDBE1629361CD30052DCE7 /* fcopy1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fcopy1.c; sourceTree = "<group>"; };
+		15F638A3294701F3006AB848 /* fprintf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fprintf.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,10 +65,12 @@
 			isa = PBXGroup;
 			children = (
 				1547EFEB292B652D0032AD6D /* file_open.c */,
-				1547F000292B67040032AD6D /* f_puts.c */,
-				1547F002292B6FC60032AD6D /* fcopy1.c */,
-				1547F004292B6FCF0032AD6D /* fgetc.c */,
-				1547F006292B6FD80032AD6D /* fgets.c */,
+				1547F000292B67040032AD6D /* fputc.c */,
+				15BDBE12293619700052DCE7 /* fgetc.c */,
+				15BDBE1429361AE90052DCE7 /* fgets_fputs.c */,
+				15BDBE1629361CD30052DCE7 /* fcopy1.c */,
+				1555339C29518830008EB989 /* File */,
+				15F638A3294701F3006AB848 /* fprintf.c */,
 			);
 			path = "파일 입출력";
 			sourceTree = "<group>";
@@ -131,11 +132,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1547F001292B67040032AD6D /* f_puts.c in Sources */,
-				1547F007292B6FD80032AD6D /* fgets.c in Sources */,
-				1547F005292B6FCF0032AD6D /* fgetc.c in Sources */,
-				1547EFEC292B652D0032AD6D /* file_open.c in Sources */,
-				1547F003292B6FC60032AD6D /* fcopy1.c in Sources */,
+				15F638A12946FAC4006AB848 /* fgets_fputs.c in Sources */,
+				15F638A4294701F3006AB848 /* fprintf.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
